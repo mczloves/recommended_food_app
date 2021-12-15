@@ -1,0 +1,17 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 2.7.3
+  NewCops: enable
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+Rails/FilePath:
+  Exclude:
+    - 'config/environments/development.rb'
+
+Rails/Output:
+  Exclude:
+    - 'db/seeds.rb'
