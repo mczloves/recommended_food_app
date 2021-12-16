@@ -15,3 +15,15 @@ Rails/FilePath:
 Rails/Output:
   Exclude:
     - 'db/seeds.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'config/application.rb'
+    - 'app/models/application_record.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'db/migrate/20211215132659_devise_create_users.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'config/initializers/devise.rb'
