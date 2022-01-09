@@ -1,0 +1,31 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 2.7.3
+  NewCops: enable
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+Rails/FilePath:
+  Exclude:
+    - 'config/environments/development.rb'
+
+Rails/Output:
+  Exclude:
+    - 'db/seeds.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'config/application.rb'
+    - 'app/models/application_record.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'db/migrate/20211215132659_devise_create_users.rb'
+    - 'app/controllers/foods_controller.rb'
+    - 'db/migrate/20211229034212_create_foods.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'config/initializers/devise.rb'
