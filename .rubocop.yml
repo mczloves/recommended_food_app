@@ -24,6 +24,8 @@ Style/Documentation:
     - 'db/migrate/20211215132659_devise_create_users.rb'
     - 'app/controllers/foods_controller.rb'
     - 'db/migrate/20211229034212_create_foods.rb'
+    - 'app/uploaders/image_uploader.rb'
+    - 'db/migrate/20220109060335_add_image_to_foods.rb'
 
 Layout/LineLength:
   Exclude:
