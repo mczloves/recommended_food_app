@@ -26,6 +26,9 @@ Style/Documentation:
     - 'db/migrate/20211229034212_create_foods.rb'
     - 'app/uploaders/image_uploader.rb'
     - 'db/migrate/20220109060335_add_image_to_foods.rb'
+    - 'app/controllers/likes_controller.rb'
+    - 'app/models/food.rb'
+    - 'db/migrate/20220111040334_create_likes.rb'
 
 Layout/LineLength:
   Exclude:
